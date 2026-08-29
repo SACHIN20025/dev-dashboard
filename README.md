@@ -72,16 +72,3 @@ This task ships with mock data (`src/data.js`), so no environment variables are 
 ```bash
 cp .env.example .env
 ```
-
-## Screenshots
-
-> Add screenshots of the dashboard (desktop + mobile) here before submitting, e.g.:
-> `docs/screenshot-desktop.png`, `docs/screenshot-mobile.png`
-
-## Demo
-
-> Add your demo video link here before submitting.
-
-## Notes for Evaluation
-
-Data currently comes from `src/data.js` via a mock `fetchDashboardData()` that resolves after ~900ms — this is what drives the loading skeletons. Swap that function for a real `fetch()` call to the Task 2 REST API to connect this to live data without touching any component code.
